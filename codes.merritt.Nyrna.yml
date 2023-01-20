@@ -32,17 +32,13 @@ modules:
     only-arches:
       - x86_64
     build-commands:
-      - cp -r packaging/linux/flatpak/build-flatpak.sh .
-      - "./build-flatpak.sh"
+      - ./build-flatpak.sh
     sources:
       - type: file
         url: https://github.com/Merrit/nyrna/releases/download/v2.9.2/Nyrna-Linux-Portable.tar.gz
         sha256: 4b905764e83fe96175adc0474ccced9c0d281190d3137ac774fb4dcbe0b6dff5
       - type: git
         url: https://github.com/Merrit/nyrna.git
-        tag: v2.9.2
-        # If flatpak-builder throws error `fatal: transport 'file' not allowed`
-        # during build resolve by running `git config --global --add protocol.file.allow always`
-        disable-shallow-clone: true
+        branch: main
       - type: file
-        path: codes.merritt.Nyrna.metainfo.xml
+        path: build-flatpak.sh
