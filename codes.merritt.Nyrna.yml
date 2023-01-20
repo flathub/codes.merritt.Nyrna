@@ -40,6 +40,5 @@ modules:
       - type: git
         url: https://github.com/Merrit/nyrna.git
         commit: d79731503b4ff831f9e9310c2dcea64b5f8279cc
-        branch: main
       - type: file
         path: build-flatpak.sh
