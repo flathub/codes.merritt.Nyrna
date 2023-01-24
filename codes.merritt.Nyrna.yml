@@ -39,6 +39,6 @@ modules:
         sha256: 4b905764e83fe96175adc0474ccced9c0d281190d3137ac774fb4dcbe0b6dff5
       - type: git
         url: https://github.com/Merrit/nyrna.git
-        commit: d79731503b4ff831f9e9310c2dcea64b5f8279cc
+        commit: 0c7d70f5b1d5c261f78fc4ba3a69ef885dbcc1e1
       - type: file
         path: build-flatpak.sh
