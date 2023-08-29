@@ -35,10 +35,10 @@ modules:
       - ./build-flatpak.sh
     sources:
       - type: file
-        url: https://github.com/Merrit/nyrna/releases/download/v2.16.1/Nyrna-Linux-Portable.tar.gz
-        sha256: 166ccbfec8f798bacabb52a12dd360c9a9e8c3be8718d4f09a74d50c38a97ffe
+        url: https://github.com/Merrit/nyrna/releases/download/v2.17.0/Nyrna-Linux-Portable.tar.gz
+        sha256: 651da3583bcb75a38401e5fde2e16eec64e7930f2d4586a8a2be9bb596c2b9b9
       - type: git
         url: https://github.com/Merrit/nyrna.git
-        commit: e13bd7c9eaff1ec6ea6e18b77021ed2a1ad42c81
+        commit: 5f5c470aafabb0e498c970b3e42d724f09e5104c
       - type: file
         path: build-flatpak.sh
